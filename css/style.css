@@ -1,0 +1,41 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+ul li {
+	
+}
+
+.menu__options:hover {
+	background-color: black;
+	color: white;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+.nav__options {
+	display: inline;
+	margin-right: 50px;
+}
+
+.nav__options-hover:hover {
+	background-color: black;
+	color: white;
+
+}
+
+.nav {
+	text-align: center;
+}
+
+footer {
+	display: inline-block;
+	position: absolute;
+	bottom: 0;
+}

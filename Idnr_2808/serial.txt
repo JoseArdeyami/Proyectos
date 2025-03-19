@@ -1,0 +1,16 @@
+Turn off your internet connection before entering the key.
+
+Gold Pack:
+F0A3AD85D0E503F055DCC892FC29808C
+
+Super Speed Pack:
+043C637BA0074885A62A6A7AA31B0675
+
+superSalePackAppKey          5C77486144DC8AAEE0210F71AD2D3B25
+removeBrandingAppKey       4FFB825B35EAA6CC48E4DFF15301F2F3
+partricularGoldPackAppKey   3F112DFBBE7179CC5A4024EBC3F325C5
+superSpeedPackAppKey       B4AA4DF8B8626F4614609500CF924B12
+webPackAppKey                  C66CE7535D12C6F956BBC638F0431B7F
+megaPackAppKey                FEB1E98301D5CB348469C404FAB05B63
+
+Block the application with your own firewall!!!

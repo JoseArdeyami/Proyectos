@@ -1,0 +1,274 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0px;
+}
+/* header */
+header h1 {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    background-image: url(images/chocolate.png);
+    background-size: 6em;
+    margin: 0px;
+    font-family: sans-serif;
+}
+@media screen and (max-width: 613px) {
+    header h1 {
+        background-size: 8em;
+        height: 60px;
+        
+    }
+}
+header {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+header ul {
+    padding: 10px;
+    margin: 0px;
+    background-color: black;
+    text-align: center;
+    display: block;
+    height: 30px;
+}
+header li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 22px;
+}
+.logo {
+    background-image: url(images/png2.png);
+    background-size: 100%;
+    background-position: center;
+    display: inline-block;
+    position: relative;
+    background-repeat: no-repeat;
+    top: -20px;
+    text-indent: -99999999px;
+    width: 80px;
+    height: 60px;
+    image-resolution: 100%;
+}
+header a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.50s, background-color 0.50s;
+}
+header a:hover {
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+}
+/* aqui termina header */
+/* footer */
+footer {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+}
+.foot {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    position: relative;
+    justify-content: center;
+}
+.foot__links {
+    margin-right: 20px;
+}
+.red {
+    width: 30px;
+    height: 30px;
+}
+/* aqui termina el footer */
+h2.presentacion {
+    background-color: rgb(66, 23, 23);
+    color: white;
+    font-size: 22px;
+    padding: 5px 60px 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    transform: rotate(-0.3deg);
+}
+/* imagenes */
+img {
+    width: 250px;
+    height: 200px;
+    border-radius: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    transition: box-shadow 0.2s;
+    transform-box: 0.2s;
+}
+img.image__normal:hover {
+    box-shadow: 20px 20px 20px 5px grey;
+    position: relative;
+    top: -20px;
+    left: -10px;
+}
+/* aqui termina imagenes */
+/* postres */
+section div {
+    display: inline-block;
+    margin-left: 150px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 22px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* aqui termina postres */
+figcaption {
+    font-family: cursive;
+    font-weight: 549;
+    color: black;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.promo {
+    min-width: 1200px;
+    display: flex;
+}
+#promos::-webkit-scrollbar {
+    width: 0;
+}
+.promo h4 {
+    font-size: 26px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 60px;
+    font-family: fantasy;
+    font-weight: 400;
+    line-height: 30px;
+    word-spacing: 5px;
+}
+.promo p {
+    font-size: 19px;
+    width: 600px;
+}
+#promos {
+    max-height: 400px;
+    display: flex;
+    overflow: auto;
+}
+#promos img {
+    height: 300px;
+    width: 350px;
+}
+#promos a {
+    display: flex;
+    position: relative;
+    text-decoration: none;
+}
+#promos a button {
+    background-color: rgb(56, 16, 16);
+}
+/* Direccion */
+#map {
+    height: 500px;
+    width: 1000px;
+    display: inline-block;
+    margin: 40px;
+}
+.address {
+    display: inline-block;
+    overflow: auto;
+    width: 300px;
+    height: 480px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    border-radius: 3em;
+    padding: 15px;
+    right: 35px;
+    top: 390px;
+    font-size: 22px;
+    text-align: justify;
+    color: white;
+}
+.address__banner {
+    display: flex;
+    height: 200px;
+    width: 900px;
+    margin: 20px auto;
+}
+/* contacto */
+.contacto {
+    background-color: rgb(202, 199, 199);
+    display: inline-block;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 2em;
+    max-width: 420px;
+    text-align: justify;
+    height: 550px;
+}
+.contacto h2 {
+    text-align: center;
+}
+.BotonSubmit {
+    position: absolute;
+}
+.contacto p {
+    position: relative;
+    top: 17px;
+}
+
+.inputs {
+    position: relative;
+    font-size: 22px;
+    left: 20px;
+}
+.redessociales {
+    display: inline-block;
+    position: absolute;
+    top: 250px;
+    left: 0;
+}
+.ws {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 120px;
+    left: 500px;
+}
+.ws1 {
+    height: 250px;
+    width: 250px;
+}
+.face {
+    position: absolute;
+    top: 120px;
+    left: 880px;
+    width: 250px;
+    height: 250px;
+}
+.face1 {
+    height: 240px;
+    width: 250px;
+}
+.insta {
+    position: absolute;
+    top: 420px;
+    left: 670px;
+    height: 250px;
+    width: 250px;
+}
+.insta1 {
+    height: 240px;
+}
+.contact__banner {
+    display: flex;
+    height: 200px;
+    width: 900px;
+    margin: 20px auto;
+}

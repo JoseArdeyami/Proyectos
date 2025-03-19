@@ -1,0 +1,5 @@
+{lat: 10.5824292 ,lng: -71.6384202};
+
+Google Key
+
+AIzaSyAx5EKUQjI_e-bImRKK6JF51PNTEplbYfk

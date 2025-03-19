@@ -1,0 +1,194 @@
+header {
+    background-color: rgb(241, 123, 12);
+    padding: 30px;
+    margin: 1px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    height: 60px;
+    transition: 5s;
+    transform: translateY(10px);
+}
+header > * {
+    transform: translateY(10px);
+    transition: transform 5s;
+}
+header:hover {
+    background-image: url(images/humo.png);
+    background-position: center;
+}
+header:hover > * {
+    transform: translateY(0px);
+}
+
+header li {
+    display: inline-block;
+    margin-right: 40px;
+    height: 110px;
+}
+header h1 {
+    position: relative;
+    top: -280px;
+}
+body {
+    margin: 0;
+    background-image: url(humo);
+    background-position: center;
+    transform: translateY(10px);
+    transition: 10s;
+}
+body > * {
+    transform: translateY(10px);
+    transition: transform 10s;
+    transition-property: all;
+}
+
+
+li.logo {
+    display: inline-block;
+    background-image: url(images/log.png);
+    height: 282px;
+    width: 400px;
+    text-indent: -99999999px;
+    margin: 0;
+    background-size: 400px;
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: 196px;
+    left: 500px;
+    background-position: center;
+}
+
+footer {
+    background-color: rgb(241, 123, 12);
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+li a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+li a:hover {
+    color: rgb(204, 0, 153);
+}
+section {
+    display: flex;
+    flex-direction: row;
+}
+figure.first figcaption {
+    font-size: 30px;
+    position: relative;
+    color: black;
+    text-decoration: underline;
+}
+figure.first img {
+    position: relative;
+    left: 120px;
+    margin-bottom: 50px;
+    border-radius: 100px;
+}
+figcaption {
+    font-family: fantasy;
+    color: rgb(204, 0, 153);
+    text-align: center;
+    font-size: 21px;
+}
+section.productos img {
+    border-radius: 100%;
+    
+}
+section.productos img {
+    box-shadow: gray 6px 6px 6px;
+}
+.productos {
+    margin-left: 260px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+p.sabores {
+    padding: 20px;
+    background-color: rgb(204, 0, 153);
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.sabor {
+    margin-left: 260px;
+    margin-right: 300px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+.uno {
+    padding: 10px;
+    font-size: 30px;
+    background-color: rgb(106, 222, 226);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-shadow: black 3px 3px 3px;
+}
+.sabor img {
+    margin: 30px;
+    border-radius: 10px;
+}
+.image {
+    position: relative;
+    width: 400px;
+}
+.image__img {
+    display: block;
+    width: 85%;
+}
+.image__over {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    display: flex;
+    font-family: 'Quicksand', sans-serif;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+.image__over > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+.image__over:hover {
+    opacity: 1;
+}
+.image__over:hover > * {
+    transform: translateY(0px);
+}
+.image__title {
+    font-size: 2em;
+    font-weight: bold;
+}
+.image__desc {
+    font-size: 1em;
+    margin-top: 0.25em;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+h1 {
+    opacity: 0;
+    transition: 0.80s;
+}
+h1 > * {
+    transform: translateY(10px);
+    transition: transform 0.80s;
+}
+h1:hover {
+    opacity: 1;
+}
+h1:hover > * {
+    transform: translateY(10px);
+}
